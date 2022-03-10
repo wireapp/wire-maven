@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wire",
+    "module": "carthage-gradle-plugin",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.googlecode.plist",
+          "module": "dd-plist",
+          "version": {
+            "requires": "1.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "carthage-gradle-plugin-0.0.1.jar",
+          "url": "carthage-gradle-plugin-0.0.1.jar",
+          "size": 59567,
+          "sha512": "59b94cd9b88feb2c33da91b4a62d949e3f6657988cbffddbd619ee99af3efa7ba6ad546996a977b5d7c374bfd284de092876df5383529d72c4b78306403b6eda",
+          "sha256": "48eb791515efd1e5fa2385f8376eafacb6c363a7235cf49a9370fa0c8e1d7673",
+          "sha1": "ed10bac4b0fbc829e40d8be9a6d1469ae894c232",
+          "md5": "5f8bf4899cf69a35558704d5e0d32e05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-native-utils",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.googlecode.plist",
+          "module": "dd-plist",
+          "version": {
+            "requires": "1.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "carthage-gradle-plugin-0.0.1.jar",
+          "url": "carthage-gradle-plugin-0.0.1.jar",
+          "size": 59567,
+          "sha512": "59b94cd9b88feb2c33da91b4a62d949e3f6657988cbffddbd619ee99af3efa7ba6ad546996a977b5d7c374bfd284de092876df5383529d72c4b78306403b6eda",
+          "sha256": "48eb791515efd1e5fa2385f8376eafacb6c363a7235cf49a9370fa0c8e1d7673",
+          "sha1": "ed10bac4b0fbc829e40d8be9a6d1469ae894c232",
+          "md5": "5f8bf4899cf69a35558704d5e0d32e05"
+        }
+      ]
+    }
+  ]
+}
