@@ -35,11 +35,11 @@
         {
           "name": "core-crypto-android-0.0.1.aar",
           "url": "core-crypto-android-0.0.1.aar",
-          "size": 91722584,
-          "sha512": "85483191eeca41af38036223a18810e897c9acfa027e41ff52962e341ad5c723c620ba45c1146509c33e7931de7a37b54446ad3f2476f79cb0f680b4827663b2",
-          "sha256": "c6faedb6dced82d4b758e8dc233a36ac7532a69142c58a4072852ca188068790",
-          "sha1": "56f3d7c4d5a48319853a25a671866473b2fe3a1e",
-          "md5": "0bdb2c82b5254244cda9828a105763a6"
+          "size": 92610776,
+          "sha512": "46f181afc6214714a23ac4bb21e36115c8fab9f7b62b371e58518bdf7cd78eb246181b93b08781ea94eb096613773f72f15c27513f8bd37a081b1d37c585e9ad",
+          "sha256": "0caaa54ce5e55aa476510670007214104884becf3a68602da3beabe4a05a3660",
+          "sha1": "50f9da7e7cf31efb6ce17732779d33740343b3a9",
+          "md5": "1e6802e0956635f24395802b6196c616"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "core-crypto-android-0.0.1.aar",
           "url": "core-crypto-android-0.0.1.aar",
-          "size": 91722584,
-          "sha512": "85483191eeca41af38036223a18810e897c9acfa027e41ff52962e341ad5c723c620ba45c1146509c33e7931de7a37b54446ad3f2476f79cb0f680b4827663b2",
-          "sha256": "c6faedb6dced82d4b758e8dc233a36ac7532a69142c58a4072852ca188068790",
-          "sha1": "56f3d7c4d5a48319853a25a671866473b2fe3a1e",
-          "md5": "0bdb2c82b5254244cda9828a105763a6"
+          "size": 92610776,
+          "sha512": "46f181afc6214714a23ac4bb21e36115c8fab9f7b62b371e58518bdf7cd78eb246181b93b08781ea94eb096613773f72f15c27513f8bd37a081b1d37c585e9ad",
+          "sha256": "0caaa54ce5e55aa476510670007214104884becf3a68602da3beabe4a05a3660",
+          "sha1": "50f9da7e7cf31efb6ce17732779d33740343b3a9",
+          "md5": "1e6802e0956635f24395802b6196c616"
         }
       ]
     }
