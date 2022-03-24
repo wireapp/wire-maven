@@ -38,11 +38,11 @@
         {
           "name": "core-crypto-jvm-0.0.1.jar",
           "url": "core-crypto-jvm-0.0.1.jar",
-          "size": 6925102,
-          "sha512": "27eb512ada7602293b2ab0edf190f3d6cb0e1a69d4a31675b54b4293086ef7b1ffc34b99bd8f36e951480c358a72f2d4fce284a5786518e13568b9c0110239fb",
-          "sha256": "a6b4ecd10835e2cc5ccdc600df388b57ca3e3e5a591a4806c9803652c86306af",
-          "sha1": "beedb023c96228d8c7f15c954d4680453f32d3db",
-          "md5": "5db8b18cda7b70c3ba10d84ef14c04bc"
+          "size": 30875524,
+          "sha512": "128b097fd9ed2f829c6aec1559d03ac7b986d557b0769702992fcf0e628db41fb1b5977eed6db244cf13af686720678e9e65b40148b1503ac5d151e327a6de54",
+          "sha256": "c73be0b33bc76e520d8ca68490bf814207a99b7ba74cfa07b9dd01138f8f229a",
+          "sha1": "e04edda699283ddc57886a00f6955bf1ba37db5a",
+          "md5": "7028694476ca466a6c3c90187c2ed8c8"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "core-crypto-jvm-0.0.1.jar",
           "url": "core-crypto-jvm-0.0.1.jar",
-          "size": 6925102,
-          "sha512": "27eb512ada7602293b2ab0edf190f3d6cb0e1a69d4a31675b54b4293086ef7b1ffc34b99bd8f36e951480c358a72f2d4fce284a5786518e13568b9c0110239fb",
-          "sha256": "a6b4ecd10835e2cc5ccdc600df388b57ca3e3e5a591a4806c9803652c86306af",
-          "sha1": "beedb023c96228d8c7f15c954d4680453f32d3db",
-          "md5": "5db8b18cda7b70c3ba10d84ef14c04bc"
+          "size": 30875524,
+          "sha512": "128b097fd9ed2f829c6aec1559d03ac7b986d557b0769702992fcf0e628db41fb1b5977eed6db244cf13af686720678e9e65b40148b1503ac5d151e327a6de54",
+          "sha256": "c73be0b33bc76e520d8ca68490bf814207a99b7ba74cfa07b9dd01138f8f229a",
+          "sha1": "e04edda699283ddc57886a00f6955bf1ba37db5a",
+          "md5": "7028694476ca466a6c3c90187c2ed8c8"
         }
       ]
     },
@@ -115,11 +115,11 @@
         {
           "name": "core-crypto-jvm-0.0.1-sources.jar",
           "url": "core-crypto-jvm-0.0.1-sources.jar",
-          "size": 6802934,
-          "sha512": "382301242f04c74eade8d85abddf75791222f61502492c1e57e51e4601a8e8b25361bcc45e2aa6b4a7ac69ea3e3086fa696307905e54b34862b088f9fc435255",
-          "sha256": "3c723cdd18496c08ddfe9b024196e420c06005dc50e69e12eff458f69df499c9",
-          "sha1": "07cfe3dc417cc1a0b371451da08ad43a23959586",
-          "md5": "4f9552a3f0379f51a8fefb99160915e8"
+          "size": 30753356,
+          "sha512": "ae0f7c5418d855bbc1627b7da4184c4e02aa935218c719d54c84e2b3c016751272c99e62502b68bf4f7c5416590b6c57affef7555c1b83261297d81b1be66706",
+          "sha256": "7805b8b667b67e900b5cb3e20e259eae39e2881996101c6d2a59c4a6291a6e7f",
+          "sha1": "c21b2a6061a52fb7cf2c422a8896a5806870f38e",
+          "md5": "16dbefcd81b98c0a4b03b317430c2877"
         }
       ]
     }
