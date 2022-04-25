@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wire",
+    "module": "core-crypto-android",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-android-0.2.1.aar",
+          "url": "core-crypto-android-0.2.1.aar",
+          "size": 14153928,
+          "sha512": "66164f2362d855174f93b26abe982b728dd9d6fe144984dacb026fd8a7be107b8654c589674042e807e132b66a3e6f727037125f3a7423108f7b7c4fdb2599e9",
+          "sha256": "f9dc7ec9be05a66c1b1fe468fa685ee8ba38351cd64167c80d81ce0961569717",
+          "sha1": "6015805dfb57ac9595bb273355d4acf6acbb7f66",
+          "md5": "d733794ec6bdd1729a4a7612fd86b5e6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.8.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-android-0.2.1.aar",
+          "url": "core-crypto-android-0.2.1.aar",
+          "size": 14153928,
+          "sha512": "66164f2362d855174f93b26abe982b728dd9d6fe144984dacb026fd8a7be107b8654c589674042e807e132b66a3e6f727037125f3a7423108f7b7c4fdb2599e9",
+          "sha256": "f9dc7ec9be05a66c1b1fe468fa685ee8ba38351cd64167c80d81ce0961569717",
+          "sha1": "6015805dfb57ac9595bb273355d4acf6acbb7f66",
+          "md5": "d733794ec6bdd1729a4a7612fd86b5e6"
+        }
+      ]
+    }
+  ]
+}
