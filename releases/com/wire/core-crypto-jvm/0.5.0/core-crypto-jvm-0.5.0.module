@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wire",
+    "module": "core-crypto-jvm",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.5.0.jar",
+          "url": "core-crypto-jvm-0.5.0.jar",
+          "size": 7550615,
+          "sha512": "edf80b8dd8ff736d0c988c27e37ee325693f5b0b69accb6b1fa59401737b2939fc8aacb00bb7f5d75b8b12ed60b781bf8f0c27b209b89fdfe291ccfa5c04f0ad",
+          "sha256": "c12501fd26c441d0087506cc88b8e59b99bd9b1ee643aad34a06d6506bb09493",
+          "sha1": "a9ecd7dad015139126ee1492dfeb23864a8b6498",
+          "md5": "b507855a44e883c3b88201cc8a1cf823"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.5.0.jar",
+          "url": "core-crypto-jvm-0.5.0.jar",
+          "size": 7550615,
+          "sha512": "edf80b8dd8ff736d0c988c27e37ee325693f5b0b69accb6b1fa59401737b2939fc8aacb00bb7f5d75b8b12ed60b781bf8f0c27b209b89fdfe291ccfa5c04f0ad",
+          "sha256": "c12501fd26c441d0087506cc88b8e59b99bd9b1ee643aad34a06d6506bb09493",
+          "sha1": "a9ecd7dad015139126ee1492dfeb23864a8b6498",
+          "md5": "b507855a44e883c3b88201cc8a1cf823"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.5.0-sources.jar",
+          "url": "core-crypto-jvm-0.5.0-sources.jar",
+          "size": 7415018,
+          "sha512": "1aff2769128359725e4b94d267a24e331f54a61e924f6a91abcae2e0ccfec66f707a3bbcadbc5fb954d00a30d9baf34e3bbf2d929f6986087e25fd3fd5e84272",
+          "sha256": "78b0eceddd7960b15a5c06c1970b04dd56b5e6b1908ef982bc400f646bfd5de5",
+          "sha1": "4291dccc83575deaabec5b1766fae5354e8866bd",
+          "md5": "d15d0c3c22d1bc9995abd3598980989c"
+        }
+      ]
+    }
+  ]
+}
