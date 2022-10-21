@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wire",
+    "module": "core-crypto-jvm",
+    "version": "0.6.0-pre1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.6.0-pre1.jar",
+          "url": "core-crypto-jvm-0.6.0-pre1.jar",
+          "size": 11323450,
+          "sha512": "a5855676a8f6c67fdb086ef66803ba802a583e0d8cb2d1f401cb4499d1c15acb9fde045df0153129c6c5e5f0e16b0243c275e78b5747a79d8e3a067c42acbaf9",
+          "sha256": "402dda21e22b1de798d7edae2f6007e0302f370a665b96822dbe79962dc4962a",
+          "sha1": "cc01be789138024fe024270616f2b75be9c6d3b4",
+          "md5": "d40fa78a6198ac2e57eb173a507b5548"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.6.0-pre1.jar",
+          "url": "core-crypto-jvm-0.6.0-pre1.jar",
+          "size": 11323450,
+          "sha512": "a5855676a8f6c67fdb086ef66803ba802a583e0d8cb2d1f401cb4499d1c15acb9fde045df0153129c6c5e5f0e16b0243c275e78b5747a79d8e3a067c42acbaf9",
+          "sha256": "402dda21e22b1de798d7edae2f6007e0302f370a665b96822dbe79962dc4962a",
+          "sha1": "cc01be789138024fe024270616f2b75be9c6d3b4",
+          "md5": "d40fa78a6198ac2e57eb173a507b5548"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-crypto-jvm-0.6.0-pre1-sources.jar",
+          "url": "core-crypto-jvm-0.6.0-pre1-sources.jar",
+          "size": 11163245,
+          "sha512": "88cce60b19b62da17bc6e111899e4fa580d76900baaac882334d6d265c32d6b3696dd10448f7aa1a14473152108207ca91caf6a040873e4327a57f6000c2d8ca",
+          "sha256": "7cd0a40829cb733a17052302c4d4ccb4ef343bc893dc968af77e393437eed9a3",
+          "sha1": "a248945d061c16f5ec69c6f6117cfc67743b95bd",
+          "md5": "c64cc11e37a51ca134dccce5287f1c45"
+        }
+      ]
+    }
+  ]
+}
